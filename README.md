@@ -1,25 +1,20 @@
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-<h1 align="center">👋 Hi, I'm Altaf Ahmed</h1>
+# Run and deploy your AI Studio app
 
-<p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=F7DC6F&center=true&vCenter=true&width=600&lines=SEO+%26+Blogging+Expert;1st+Year+Student;WordPress+Web+Designer" alt="Typing SVG">
-</p>
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/drive/1i4O5xzjtzAiLLN4lT1uGsWDv4sSQRrry
 
-<h2>👨‍💻 About Me</h2>
+## Run Locally
 
-- 🎓 **1st Year Student**  
-- 🧠 Started SEO and Blogging in **10th Grade**  
-- 🕒 **2 Years of Experience** in SEO and Blogging  
-- 🌐 Skilled in **WordPress Web Designing**  
-- 📧 Reach me: **[aasiddiqui1104@gmail.com](mailto:aasiddiqui1104@gmail.com)**  
+**Prerequisites:**  Node.js
 
----
 
-<h2>📈 Stats</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=altaf-ahmed&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
-
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
